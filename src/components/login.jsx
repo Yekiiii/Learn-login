@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Login() {
   // Your login form JSX here
@@ -17,6 +18,7 @@ function Login() {
         </label>
         <br />
         <button type="submit">Login</button>
+        <Link to= "/"> Go back</Link>
       </form>
     </div>
   );
